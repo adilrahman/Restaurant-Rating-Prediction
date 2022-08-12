@@ -24,7 +24,7 @@ E-commerce
 Python
 
 # Tools and Libraries 🛠
-Jupyter NoteBook, VsCode, Pandas, Matplotlib, Seaborn, Sklearn
+Jupyter NoteBook, VsCode, Pandas, Matplotlib, Seaborn, Sklearn, Flask, Heroku
 
 # Conclusion 💡
 - In Banglore 60% of restaurants are accepts online orders and Nearly 40% of the restaurants do not accept online orders
