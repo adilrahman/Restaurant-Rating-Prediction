@@ -14,7 +14,7 @@ various Zomato Restaurants to predict their respective Ratings based on certain 
 
 ## Dataset 
 
-https://www.shorturl.at/bINR4
+https://www.kaggle.com/datasets/himanshupoddar/zomato-bangalore-restaurants
 
 ## Technology 
 Machine Learning Technology
