@@ -6,10 +6,10 @@ app = Flask(__name__)
 model = pickle.load(open("Model/model.pkl", "rb"))
 
 #Label encoding 
-cuisines_encoder = pickle.load(open("Label Encoders/cuisines_encoder.pkl", "rb"))
-listed_in_type_encoder = pickle.load(open("Label Encoders/listed_in_type_encoder.pkl", "rb"))
-location_encoder = pickle.load(open("Label Encoders/location_encoder.pkl", "rb"))
-rest_type_encoder = pickle.load(open("Label Encoders/type_encoder.pkl", "rb"))
+cuisines_encoder = pickle.load(open("Label_Encoders/cuisines_encoder.pkl", "rb"))
+listed_in_type_encoder = pickle.load(open("Label_Encoders/listed_in_type_encoder.pkl", "rb"))
+location_encoder = pickle.load(open("Label_Encoders/location_encoder.pkl", "rb"))
+rest_type_encoder = pickle.load(open("Label_Encoders/type_encoder.pkl", "rb"))
 
 
 cuisines = {idx : cls for idx, cls in enumerate(cuisines_encoder.classes_)}
