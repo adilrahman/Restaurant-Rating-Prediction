@@ -98,11 +98,11 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-6">
+                <!-- <div class="col-sm-6">
                     <div class="card">
                         <div class="card-body">
                             <h5 class="card-title">Location</h5>
-                            <!-- Destination -->
+                           
                             <select name="Location" id="Location" required="required">
                                 {%for i in range(0, options["location"][0])%}
                                 <option value={{i}}>{{ options["location"][1][i] }}</option>
@@ -110,10 +110,23 @@
                             </select>
                         </div>
                     </div>
+                </div> -->
+
+
+                <div class="col-sm-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Listed In Restaurant Type</h5>
+                            <!-- Airline -->
+                            <select name="listed_in_restaurant_type" id="listed_in_restaurant_type" required="required">
+                                {%for i in range(0, options["listed_in_type"][0])%}
+                                <option value={{i}}>{{ options["listed_in_type"][1][i] }}</option>
+                                {%endfor%}
+                            </select>
+                        </div>
+                    </div>
                 </div>
             </div>
-
-
 
             <br>
             <br>
@@ -165,19 +178,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-6">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title">Listed In Restaurant Type</h5>
-                            <!-- Airline -->
-                            <select name="listed_in_restaurant_type" id="listed_in_restaurant_type" required="required">
-                                {%for i in range(0, options["listed_in_type"][0])%}
-                                <option value={{i}}>{{ options["listed_in_type"][1][i] }}</option>
-                                {%endfor%}
-                            </select>
-                        </div>
-                    </div>
-                </div>
+
             </div>
 
 

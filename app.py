@@ -40,7 +40,7 @@ def predict():
          online_order = request.form['online-order']
          votes = request.form["votes"]
          table_booking = request.form['table-booking']
-         location = request.form["Location"]
+        #  location = request.form["Location"]
          restaurant_type = request.form['Restaurant_Type']
          listed_in_restaurant_type = request.form["listed_in_restaurant_type"]
          approx_cost = request.form['approx-cost']
@@ -50,10 +50,10 @@ def predict():
          prediction["online_order"] = [float(online_order)]
          prediction["book_table"] = [float(table_booking)]
          prediction["votes"] = [float(votes)]
-         prediction["location"] = [float(location)]
+        #  prediction["location"] = [float(location)]
          prediction["cuisines"] = [float(cuisine)]
-         prediction["approx_cost"] = [float(approx_cost)]
-         prediction["listed_in_type"] = [float(listed_in_restaurant_type)]
+         prediction["approx_cost(for two people)"] = [float(approx_cost)]
+         prediction["listed_in(type)"] = [float(listed_in_restaurant_type)]
          prediction["type"] = [float(restaurant_type)]
          
          pred = pd.DataFrame(prediction)
