@@ -1,32 +1,34 @@
-# Objective 🎯
+# **Zomato Restaurant Rating Prediction**
+
+## Objective 🎯
 
 Build a solution that should able to predict the ratings of the
 restaurants based on some features that listed in the dataset.
 
 
-# Poblem Statement ❓
+## Poblem Statement ❓
 
 The main goal of this project is to perform extensive Exploratory Data Analysis(EDA) on
 the Zomato Dataset and build an appropriate Machine Learning Model that will help
 various Zomato Restaurants to predict their respective Ratings based on certain features
 
-# Dataset 📀
+## Dataset 📀
 
 https://www.shorturl.at/bINR4
 
-# Technology �
+## Technology �
 Machine Learning Technology
 
-# Domain 🏥
+## Domain 🏥
 E-commerce
 
-# Programming Language 🐍
+## Programming Language 🐍
 Python
 
-# Tools and Libraries 🛠
+## Tools and Libraries 🛠
 Jupyter NoteBook, VsCode, Pandas, Matplotlib, Seaborn, Sklearn, Flask, Heroku
 
-# Conclusion 💡
+## Conclusion 💡
 - In Banglore 60% of restaurants are accepts online orders and Nearly 40% of the restaurants do not accept online orders
 
 - Almost 90% restaurants in Banglore do not provide table booking facility.
@@ -58,24 +60,21 @@ Jupyter NoteBook, VsCode, Pandas, Matplotlib, Seaborn, Sklearn, Flask, Heroku
   4. Kanti Sweets
   5. Five Star Chicken
   
-## Zomato Restaurant rate prediction 🤖
+### Zomato Restaurant rate prediction 🤖
   - For prediction I have used **Extra Tree Regression Model** 
   - It performed very well among other models 
   
-  ### Training r2_score :- 0.9735
-  ### Testing r2_score  :- 0.8498
+  #### Training r2_score :- 0.9735
+  #### Testing r2_score  :- 0.8498
  
-# Deployment 🔗
+## Deployment 🔗
 - Web-application is deployed in Heroku
 ![plot](./web-app-screenshort.png)
 
 link :- https://rest-rating-prediction.herokuapp.com/
 
-# LinkedIn Post 📲
+## LinkedIn Post 📲
 
 
-# Youtube Video 🎬
-
-
-
+## Youtube Video 🎬
 
