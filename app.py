@@ -1,5 +1,4 @@
 from flask import Flask, request, render_template
-import sklearn
 import pickle
 import pandas as pd
 
@@ -28,7 +27,7 @@ options = {
 ## normalizer
 normalizer = pickle.load(open("Normalizer/normalizer.pkl", "rb"))
 
-@app.route("/")
+@app.route("/", methods = ["GET"])
 def home():
     return render_template("home.html", options = options)
 
