@@ -12,23 +12,23 @@ The main goal of this project is to perform extensive Exploratory Data Analysis(
 the Zomato Dataset and build an appropriate Machine Learning Model that will help
 various Zomato Restaurants to predict their respective Ratings based on certain features
 
-## Dataset 📀
+## Dataset 
 
 https://www.shorturl.at/bINR4
 
-## Technology �
+## Technology 
 Machine Learning Technology
 
-## Domain 🏥
+## Domain 
 E-commerce
 
-## Programming Language 🐍
+## Programming Language 
 Python
 
 ## Tools and Libraries 🛠
 Jupyter NoteBook, VsCode, Pandas, Matplotlib, Seaborn, Sklearn, Flask, Heroku
 
-## Conclusion 💡
+## Conclusion 
 - In Banglore 60% of restaurants are accepts online orders and Nearly 40% of the restaurants do not accept online orders
 
 - Almost 90% restaurants in Banglore do not provide table booking facility.
@@ -72,9 +72,4 @@ Jupyter NoteBook, VsCode, Pandas, Matplotlib, Seaborn, Sklearn, Flask, Heroku
 ![plot](./web-app-screenshort.png)
 
 link :- https://rest-rating-prediction.herokuapp.com/
-
-## LinkedIn Post 📲
-
-
-## Youtube Video 🎬
 
