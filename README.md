@@ -61,7 +61,6 @@ Jupyter NoteBook, VsCode, Pandas, Matplotlib, Seaborn, Sklearn, Flask, Heroku
 ## Zomato Restaurant rate prediction 🤖
   - For prediction I have used **Extra Tree Regression Model** 
   - It performed very well among other models 
-  [score-table]
   
   ### Training r2_score :- 0.9735
   ### Testing r2_score  :- 0.8498
@@ -70,7 +69,7 @@ Jupyter NoteBook, VsCode, Pandas, Matplotlib, Seaborn, Sklearn, Flask, Heroku
 - Web-application is deployed in Heroku
 [screen shot of web-app]
 
-link :- [link]
+link :- https://rest-rating-prediction.herokuapp.com/
 
 # LinkedIn Post 📲
 
