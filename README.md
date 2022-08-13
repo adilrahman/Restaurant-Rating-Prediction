@@ -67,7 +67,7 @@ Jupyter NoteBook, VsCode, Pandas, Matplotlib, Seaborn, Sklearn, Flask, Heroku
  
 # Deployment 🔗
 - Web-application is deployed in Heroku
-[screen shot of web-app]
+![plot](./web-app-screenshort.png)
 
 link :- https://rest-rating-prediction.herokuapp.com/
 
