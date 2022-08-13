@@ -1,4 +1,4 @@
-# **Zomato Restaurant Rating Prediction**
+# **Zomato Restaurant Rating Prediction | iNeuron Internship**
 
 ## Objective 🎯
 
