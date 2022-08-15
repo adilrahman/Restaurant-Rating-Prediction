@@ -1,4 +1,8 @@
-# **Zomato Restaurant Rating Prediction | iNeuron Internship**
+<h1 align="center">Zomato Restaurant Rating Prediction | iNeuron Internship</h1>
+
+<p align="center">
+  <img src="https://artfiles.alphacoders.com/130/thumb-1920-130688.jpg" width="750">  </a> 
+<br/></p>
 
 ## Objective 🎯
 
